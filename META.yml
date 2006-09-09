@@ -1,0 +1,22 @@
+---
+name: Object-LocalVars
+version: 0.16
+author:
+  - David A Golden <dagolden@cpan.org>
+abstract: |-
+  Outside-in objects with local aliasing of $self and object
+  variables
+license: perl
+requires:
+  Scalar::Util: 1.09
+  Test::Exception: 0
+  Test::More: 0.48
+  perl: 5.006
+provides:
+  Object::LocalVars:
+    file: lib/Object/LocalVars.pm
+    version: 0.16
+generated_by: Module::Build version 0.2702
+no_index:
+  dir:
+    - examples
